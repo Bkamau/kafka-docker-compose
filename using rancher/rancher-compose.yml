@@ -1,0 +1,14 @@
+version: '2'
+services:
+  kafka-rest:
+    scale: 1
+    start_on_create: true
+  zookeeper:
+    scale: 1
+    start_on_create: true
+  kafka:
+    scale: 1
+    start_on_create: true
+  schema-registry:
+    scale: 1
+    start_on_create: true
